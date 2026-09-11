@@ -2,14 +2,14 @@
 
 ## TC-001 — Successful Login
 
-| Field         | Details                                               |
-| ------------- | ----------------------------------------------------- |
-| Test Case ID  | TC-001                                                |
-| Scenario ID   | TS-001                                                |
-| Title         | Verify that a user can log in with valid credentials  |
-| Priority      | High                                                  |
-| Preconditions | User is on the SauceDemo login page                   |
-| Test Data     | Username: `standard_user`<br>Password: `secret_sauce` |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-001 |
+| Scenario ID | TS-001 |
+| Title | Verify that a user can log in with valid credentials |
+| Priority | High |
+| Preconditions | User is on the SauceDemo login page |
+| Test Data | Username: `standard_user`<br>Password: `secret_sauce` |
 
 ### Test Steps
 
@@ -31,14 +31,14 @@ The user was successfully taken to the Products page and the products were displ
 
 ## TC-002 — Invalid Password
 
-| Field         | Details                                                       |
-| ------------- | ------------------------------------------------------------- |
-| Test Case ID  | TC-002                                                        |
-| Scenario ID   | TS-002                                                        |
-| Title         | Verify that login fails when an incorrect password is entered |
-| Priority      | High                                                          |
-| Preconditions | User is on the SauceDemo login page                           |
-| Test Data     | Username: `standard_user`<br>Password: `secretsauce`          |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-002 |
+| Scenario ID | TS-002 |
+| Title | Verify that login fails when an incorrect password is entered |
+| Priority | High |
+| Preconditions | User is on the SauceDemo login page |
+| Test Data | Username: `standard_user`<br>Password: `secretsauce` |
 
 ### Test Steps
 
@@ -60,14 +60,14 @@ The application prevented login, displayed an error message indicating an incorr
 
 ## TC-003 — Invalid Username
 
-| Field         | Details                                                     |
-| ------------- | ----------------------------------------------------------- |
-| Test Case ID  | TC-003                                                      |
-| Scenario ID   | TS-003                                                      |
-| Title         | Verify that login fails when an invalid username is entered |
-| Priority      | High                                                        |
-| Preconditions | User is on the SauceDemo login page                         |
-| Test Data     | Username: `standarduser`<br>Password: `secret_sauce`        |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-003 |
+| Scenario ID | TS-003 |
+| Title | Verify that login fails when an invalid username is entered |
+| Priority | High |
+| Preconditions | User is on the SauceDemo login page |
+| Test Data | Username: `standarduser`<br>Password: `secret_sauce` |
 
 ### Test Steps
 
@@ -89,14 +89,14 @@ The application prevented login, displayed an error message indicating an incorr
 
 ## TC-004 — Empty Username
 
-| Field         | Details                                                  |
-| ------------- | -------------------------------------------------------- |
-| Test Case ID  | TC-004                                                   |
-| Scenario ID   | TS-004                                                   |
-| Title         | Verify that login fails when the username field is empty |
-| Priority      | High                                                     |
-| Preconditions | User is on the SauceDemo login page                      |
-| Test Data     | Username: _(empty)_<br>Password: `secret_sauce`          |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-004 |
+| Scenario ID | TS-004 |
+| Title | Verify that login fails when the username field is empty |
+| Priority | High |
+| Preconditions | User is on the SauceDemo login page |
+| Test Data | Username: *(empty)*<br>Password: `secret_sauce` |
 
 ### Test Steps
 
@@ -118,14 +118,14 @@ The application prevented login and displayed the error message: **"Epic sadface
 
 ## TC-005 — Empty Password
 
-| Field         | Details                                                  |
-| ------------- | -------------------------------------------------------- |
-| Test Case ID  | TC-005                                                   |
-| Scenario ID   | TS-005                                                   |
-| Title         | Verify that login fails when the password field is empty |
-| Priority      | High                                                     |
-| Preconditions | User is on the SauceDemo login page                      |
-| Test Data     | Username: `standard_user`<br>Password: _(empty)_         |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-005 |
+| Scenario ID | TS-005 |
+| Title | Verify that login fails when the password field is empty |
+| Priority | High |
+| Preconditions | User is on the SauceDemo login page |
+| Test Data | Username: `standard_user`<br>Password: *(empty)* |
 
 ### Test Steps
 
@@ -490,7 +490,7 @@ The checkout information page opened successfully, and the First Name, Last Name
 | Title         | Verify that checkout cannot proceed when the first name is empty                      |
 | Priority      | High                                                                                  |
 | Preconditions | User is logged in, has a product in the cart, and is on the checkout information page |
-| Test Data     | First Name: _(empty)_<br>Last Name: `Mensah`<br>Postal Code: `Ge-159-0939`            |
+| Test Data     | First Name: *(empty)*<br>Last Name: `Mensah`<br>Postal Code: `Ge-159-0939`            |
 
 ### Test Steps
 
@@ -520,7 +520,7 @@ The application prevented the user from proceeding and displayed the error messa
 | Title         | Verify that checkout cannot proceed when the last name is empty                       |
 | Priority      | High                                                                                  |
 | Preconditions | User is logged in, has a product in the cart, and is on the checkout information page |
-| Test Data     | First Name: Valid value<br>Last Name: _(empty)_<br>Postal Code: `Ge-159-0939`         |
+| Test Data     | First Name: Valid value<br>Last Name: *(empty)*<br>Postal Code: `Ge-159-0939`         |
 
 ### Test Steps
 
@@ -550,7 +550,7 @@ The application prevented the user from proceeding and displayed the error messa
 | Title         | Verify that checkout cannot proceed when the postal code is empty                     |
 | Priority      | High                                                                                  |
 | Preconditions | User is logged in, has a product in the cart, and is on the checkout information page |
-| Test Data     | First Name: Valid value<br>Last Name: `Mensah`<br>Postal Code: _(empty)_              |
+| Test Data     | First Name: Valid value<br>Last Name: `Mensah`<br>Postal Code: *(empty)*              |
 
 ### Test Steps
 
@@ -570,17 +570,16 @@ The application prevented the user from proceeding and displayed the error messa
 ### Status
 
 **PASS**
-
 ## TC-020 — Complete Checkout with Valid Information
 
-| Field         | Details                                                                               |
-| ------------- | ------------------------------------------------------------------------------------- |
-| Test Case ID  | TC-020                                                                                |
-| Scenario ID   | TS-020                                                                                |
-| Title         | Verify that a user can proceed to checkout with valid customer information            |
-| Priority      | High                                                                                  |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-020 |
+| Scenario ID | TS-020 |
+| Title | Verify that a user can proceed to checkout with valid customer information |
+| Priority | High |
 | Preconditions | User is logged in, has a product in the cart, and is on the checkout information page |
-| Test Data     | First Name: `Shadrack`<br>Last Name: `Mensah`<br>Postal Code: `GE-159-0939`           |
+| Test Data | First Name: `Shadrack`<br>Last Name: `Mensah`<br>Postal Code: `GE-159-0939` |
 
 ### Test Steps
 
@@ -604,14 +603,14 @@ The application accepted the entered checkout information and navigated to the *
 
 ## TC-021 — Verify Checkout Overview
 
-| Field         | Details                                                                           |
-| ------------- | --------------------------------------------------------------------------------- |
-| Test Case ID  | TC-021                                                                            |
-| Scenario ID   | TS-021                                                                            |
-| Title         | Verify that the Checkout Overview page displays the correct order information     |
-| Priority      | High                                                                              |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-021 |
+| Scenario ID | TS-021 |
+| Title | Verify that the Checkout Overview page displays the correct order information |
+| Priority | High |
 | Preconditions | User has entered valid checkout information and is on the Checkout: Overview page |
-| Test Data     | Product: `Sauce Labs Backpack`<br>Quantity: `1`<br>Item Price: `$29.99`           |
+| Test Data | Product: `Sauce Labs Backpack`<br>Quantity: `1`<br>Item Price: `$29.99` |
 
 ### Test Steps
 
@@ -639,14 +638,14 @@ The Checkout: Overview page displayed the **Sauce Labs Backpack** with quantity 
 
 ## TC-022 — Verify Order Total
 
-| Field         | Details                                                            |
-| ------------- | ------------------------------------------------------------------ |
-| Test Case ID  | TC-022                                                             |
-| Scenario ID   | TS-022                                                             |
-| Title         | Verify that the checkout total is calculated correctly             |
-| Priority      | High                                                               |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-022 |
+| Scenario ID | TS-022 |
+| Title | Verify that the checkout total is calculated correctly |
+| Priority | High |
 | Preconditions | User is on the Checkout: Overview page with a product in the order |
-| Test Data     | Item total: `$29.99`<br>Tax: `$2.40`                               |
+| Test Data | Item total: `$29.99`<br>Tax: `$2.40` |
 
 ### Test Steps
 
@@ -669,14 +668,14 @@ The Item total was `$29.99` and the Tax was `$2.40`. The calculated total was `$
 
 ## TC-023 — Complete Order Successfully
 
-| Field         | Details                                                   |
-| ------------- | --------------------------------------------------------- |
-| Test Case ID  | TC-023                                                    |
-| Scenario ID   | TS-023                                                    |
-| Title         | Verify that a user can successfully complete an order     |
-| Priority      | High                                                      |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-023 |
+| Scenario ID | TS-023 |
+| Title | Verify that a user can successfully complete an order |
+| Priority | High |
 | Preconditions | User is on the Checkout: Overview page with a valid order |
-| Test Data     | Sauce Labs Backpack, Quantity: `1`, Total: `$32.39`       |
+| Test Data | Sauce Labs Backpack, Quantity: `1`, Total: `$32.39` |
 
 ### Test Steps
 
@@ -698,14 +697,14 @@ The application successfully processed the order and displayed the **Checkout: C
 
 ## TC-024 — Verify Order Confirmation
 
-| Field         | Details                                                                           |
-| ------------- | --------------------------------------------------------------------------------- |
-| Test Case ID  | TC-024                                                                            |
-| Scenario ID   | TS-024                                                                            |
-| Title         | Verify that the order confirmation page displays the correct confirmation details |
-| Priority      | High                                                                              |
-| Preconditions | User has successfully completed an order and is on the Checkout: Complete page    |
-| Test Data     | Completed order for Sauce Labs Backpack                                           |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-024 |
+| Scenario ID | TS-024 |
+| Title | Verify that the order confirmation page displays the correct confirmation details |
+| Priority | High |
+| Preconditions | User has successfully completed an order and is on the Checkout: Complete page |
+| Test Data | Completed order for Sauce Labs Backpack |
 
 ### Test Steps
 
@@ -729,14 +728,14 @@ The page displayed **Checkout: Complete!**, **Thank you for your order!**, the o
 
 ## TC-025 — Return to Products After Order Completion
 
-| Field         | Details                                                                        |
-| ------------- | ------------------------------------------------------------------------------ |
-| Test Case ID  | TC-025                                                                         |
-| Scenario ID   | TS-025                                                                         |
-| Title         | Verify that the user can return to the Products page after completing an order |
-| Priority      | Medium                                                                         |
+| Field | Details |
+|---|---|
+| Test Case ID | TC-025 |
+| Scenario ID | TS-025 |
+| Title | Verify that the user can return to the Products page after completing an order |
+| Priority | Medium |
 | Preconditions | User has successfully completed an order and is on the Checkout: Complete page |
-| Test Data     | Completed order for Sauce Labs Backpack                                        |
+| Test Data | Completed order for Sauce Labs Backpack |
 
 ### Test Steps
 
