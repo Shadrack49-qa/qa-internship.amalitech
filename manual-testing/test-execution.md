@@ -80,3 +80,15 @@ The test execution was performed across two environments:
 The tested critical shopping journey from login through product selection, cart management, checkout, order completion, and return to the Products page completed successfully for the executed scenarios.
 
 Further exploratory testing, navigation/logout testing, browser behavior checks, and focused defect/observation testing are still required before making a final release recommendation.
+
+## Additional Navigation and State Checks
+
+| Check | Actual Result | Status |
+|---|---|---|
+| Reset App State | After selecting Reset App State, the cart became empty. | PASS |
+| Browser Refresh — Cart | The product remained in the cart after refreshing the browser. | PASS |
+| Browser Refresh — Checkout Overview | The Checkout Overview and order information remained intact after refreshing. | PASS |
+| Browser Back — Checkout Overview | Browser Back returned to the Checkout: Your Information page. | PASS |
+| Logout → Browser Back | After logout, browser Back did not restore the Products page; the login page remained displayed. | PASS |
+| Logout | Selecting Logout returned to the login page. | PASS |
+| Browser Back — Product Details | Browser Back from Product Details returned to the Products page and loaded normally. | PASS |
