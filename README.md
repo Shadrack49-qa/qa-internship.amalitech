@@ -1,5 +1,4 @@
 # QA Internship - SauceDemo Manual Testing
-
 ## Project Overview
 
 This project contains manual software testing documentation for the SauceDemo / Swag Labs web application.
@@ -26,7 +25,7 @@ The testing covers:
 
 ## Testing Approach
 
-The project will include:
+The project includes:
 
 - Functional testing
 - Positive testing
@@ -46,10 +45,25 @@ The project will include:
 - Defect reports / quality observations
 - Exploratory testing notes
 - Evidence screenshots
-- Final release recommendation
+- Final test assessment
 
 ## Test Environment
 
-- Operating System: Windows
+- Operating Systems: Windows (HP laptop) and macOS (MacBook)
+- Browser: Google Chrome
+- Application: SauceDemo / Swag Labss
 - Browser: Google Chrome
 - Application: SauceDemo
+
+
+## Test Results
+
+- Total Test Cases: 25
+- Passed: 25
+- Failed: 0
+- Blocked: 0
+- Pass Rate: 100%
+- Confirmed Functional Defects: 0
+- Quality Observations: 3
+- Exploratory Testing: Completed
+- Evidence Screenshots: 

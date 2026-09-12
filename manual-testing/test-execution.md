@@ -73,13 +73,13 @@ The test execution was performed across two environments:
 - Product sorting, cart operations, and checkout calculations behaved as expected.
 - The checkout flow successfully progressed from customer information to order completion.
 - No failed test cases were recorded during this execution cycle.
-- Defect and usability observations will be documented separately following exploratory and focused defect testing.
+- Defect and usability observations were documented separately following the exploratory and focused check.
 
 ## Execution Conclusion
 
 The tested critical shopping journey from login through product selection, cart management, checkout, order completion, and return to the Products page completed successfully for the executed scenarios.
 
-Further exploratory testing, navigation/logout testing, browser behavior checks, and focused defect/observation testing are still required before making a final release recommendation.
+Exploratory testing, navigation/logout testing, browser behavior checks, and focused observation testing were also completed and documented. No confirmed functional defects were identified.
 
 ## Additional Navigation and State Checks
 
